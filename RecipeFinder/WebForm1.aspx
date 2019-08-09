@@ -33,7 +33,7 @@
         <div class="row">
             <div class="control-label col-xs-12 col-sm-12 col-md-12 col-lg-12">
                 <asp:Label ID="lblIngredient3" class="lbl" runat="server" Text="Ingredient #3"></asp:Label>
-                <asp:TextBox ID="searchBox3" runat="server" CssClass="form-control" SkinID="Entry"></asp:TextBox>
+                    
             </div>
         </div>
 
