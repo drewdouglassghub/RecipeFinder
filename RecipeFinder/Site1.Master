@@ -1,0 +1,33 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="RecipeFinder.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>Refrigerator Search</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="App_Themes/Fridge/Fridge.css" rel="stylesheet" />
+    <script src="Scripts/jquery-3.2.1.min.js"></script>
+    <script src="Scripts/bootstrap.min.js"></script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <div class="container">
+        <section>
+            <h1>DMACC Refrigerator Search Engine</h1>
+            <p class="fancy">For those times when you have nothing to eat!!!</p>
+            <asp:ContentPlaceHolder ID="formPlaceHolder" runat="server">
+            </asp:ContentPlaceHolder>
+        </section>
+
+        <footer>
+            <h3>&copy 2018, Complements of Refrigerator Team</h3>
+        <asp:ContentPlaceHolder ID="footerPlaceHolder" runat="server">
+        </asp:ContentPlaceHolder>
+        </footer>
+    </div>
+</body>
+</html>
+

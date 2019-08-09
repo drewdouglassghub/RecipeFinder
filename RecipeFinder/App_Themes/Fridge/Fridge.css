@@ -1,0 +1,100 @@
+﻿h1 {
+    font-size: 250%;
+    color: blue;
+}
+
+h2 {
+    font-size: 200%;
+    color: blue;
+}
+
+h3 {
+    font-size: 150%;
+    color: black;
+}
+
+.fancy {
+    font-style: italic;
+    color: red;
+    font-size: 1.25em;
+}
+
+.confirm {
+    color: green;
+}                   
+
+lbl {
+    margin-right: 1em;
+}
+
+h4 {
+    font-style: italic;
+    color: red;
+    font-size: .85em;
+}
+
+.RecipeName {
+    color: black;
+    font-size: 2em;
+    font-weight: bold;
+    padding-bottom: 2em;
+    padding-top: 2em;
+}
+
+.error {
+    color: red;
+}
+
+body {
+    background-color: #e0e2e4;
+}
+
+.btn-success {
+    margin: .5em;
+}
+
+
+.table-bordered {
+    text-align: center;
+    border: 2px solid royalblue;
+}
+
+.btn-danger {
+    margin: .5em;
+}
+
+.EditButton {
+    background-color: #4CAF50;
+    color: white;
+    Border-Radius: 2px;
+    border-style: groove;
+    height: 40px;
+    margin: .5em;
+    padding: .5em;
+}
+
+.DeleteButton {
+    background-color: #f44336;
+    color: white;
+    Border-Radius: 2px;
+    border-style: groove;
+    height: 40px;
+    margin: .5em;
+    padding: .5em;
+}
+
+.Grid {
+    padding-top: 2em;
+}
+
+.Grid td {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.Grid td, th {
+    border: solid 2px black;
+    text-align: center;
+    padding-left: 2em;
+    padding-right: 2em;
+} 

@@ -1,0 +1,17 @@
+﻿
+
+
+<asp:TextBox runat="server" CssClass="entry" SkinID="Entry" BorderColor="blue" BackColor="#e0e2e4"></asp:TextBox>
+
+<asp:Button runat="server" SkinID="Submit" BackColor="RoyalBlue" ForeColor="white" Height=3em Width=11em Border-Radius=4px  
+ CornerRadius="15" BorderBrush="Black" BorderThickness="20" />
+
+<asp:Button runat="server" SkinID="Confirm" BackColor="#4CAF50" ForeColor="white" Height=3em Width=11em Border-Radius=4px />
+
+<asp:GridView runat="server" SkinID="Grid" Font-Name="Verdana"
+                Font-Size="10pt" Cellpadding="4" 
+            HeaderStyle-BackColor="#5b9aa0"
+            HeaderStyle-ForeColor="White"
+            RowStyle-Height="40" />
+
+<asp:Image runat="server" ImageUrl="~/images/image1.jpg" />
